@@ -30,7 +30,7 @@ func httpGet(url, token string) []byte {
 	} else if data, err := ioutil.ReadAll(res.Body); err != nil {
 		panic(err)
 	} else {
-		res.Body.Close()
+		_ = res.Body.Close()
 		return data
 	}
 }
@@ -45,7 +45,7 @@ func httpPost(url, body string) []byte {
 	} else if data, err := ioutil.ReadAll(res.Body); err != nil {
 		panic(err)
 	} else {
-		res.Body.Close()
+		_ = res.Body.Close()
 		return data
 	}
 }
