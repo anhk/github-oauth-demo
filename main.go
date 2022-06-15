@@ -133,14 +133,7 @@ func processHtml(ctx *gin.Context) {
 func startWeb() {
 	router := gin.Default()
 	router.GET("/", processHtml)
-	router.GET("/api/go", processApi)
-	//router.HandleFunc("/api/go", processApi)
-	//router.PathPrefix("/css").Handler(http.StripPrefix("/css/", http.FileServer(http.Dir("./html/css"))))
-	//router.HandleFunc("/", processHtml)
-	//
-	//if err := http.ListenAndServe(":8080", router); err != nil {
-	//	panic(err)
-	//}
+	router.GET("/api/go", processApi) // 在Github上注册应用的时候，回调接口设置的是 http://127.1:8080/api/go
 	_ = router.Run(":8080")
 }
 
