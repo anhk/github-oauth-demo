@@ -22,7 +22,7 @@ func httpGet(url, token string) []byte {
 	req, _ := http.NewRequest("GET", url, nil)
 	req.Header.Add("Accept", "application/json")
 	if token != "" {
-		req.Header.Add("Authorization", fmt.Sprintf("token %v", token))
+		req.Header.Add("Authorization", fmt.Sprintf("Bearer %v", token))
 	}
 
 	if res, err := (&http.Client{}).Do(req); err != nil {
