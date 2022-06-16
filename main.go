@@ -13,11 +13,11 @@ import (
 // GitHub App ClientID
 const (
 	// GitHub
-	AccessTokenUrl = "https://github.com/login/oauth/access_token"
-	UserInfoUrl    = "https://api.github.com/user"
-	AuthorizeUrl   = "https://github.com/login/oauth/authorize"
-	ClientId       = "dc7c2a2035486454e400"
-	ClientSecret   = "9bbb968691e817399a5000bf7d83d3f532c9712e"
+	//AccessTokenUrl = "https://github.com/login/oauth/access_token"
+	//UserInfoUrl    = "https://api.github.com/user"
+	//AuthorizeUrl   = "https://github.com/login/oauth/authorize"
+	//ClientId       = "dc7c2a2035486454e400"
+	//ClientSecret   = "9bbb968691e817399a5000bf7d83d3f532c9712e"
 
 	// AliYun
 	//AccessTokenUrl = "https://eiam-api-cn-hangzhou.aliyuncs.com/v2/idaas_abt3pfwojojcq323si6g5tx7e4/app_mkvmrajqr7e6sehnu7vlynet6a/oauth2/token"
@@ -25,6 +25,13 @@ const (
 	//AuthorizeUrl   = "https://0hyuelcn.aliyunidaas.com/login/app/app_mkvmrajqr7e6sehnu7vlynet6a/oauth2/authorize"
 	//ClientId       = "app_mkvmrajqr7e6sehnu7vlynet6a"
 	//ClientSecret   = "CS2mfMVnRXJ11SkAdDYN3aedWdoTb9zjCiMVXdkn3LcvEW"
+
+	// JDCloud
+	AccessTokenUrl = "https://oauth2.jdcloud.com/token"
+	UserInfoUrl    = "https://oauth2.jdcloud.com/userinfo"
+	AuthorizeUrl   = "https://oauth2.jdcloud.com/authorize"
+	ClientId       = "9461655289616941"
+	ClientSecret   = "CS2mfMVnRXJ1"
 )
 
 //
