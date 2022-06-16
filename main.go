@@ -30,7 +30,7 @@ const (
 	AccessTokenUrl = "https://oauth2.jdcloud.com/token"
 	UserInfoUrl    = "https://oauth2.jdcloud.com/userinfo"
 	AuthorizeUrl   = "https://oauth2.jdcloud.com/authorize"
-	ClientId       = "9461655289616941"
+	ClientId       = "9241655362939860"
 	ClientSecret   = "CS2mfMVnRXJ1"
 )
 
